@@ -1,0 +1,139 @@
+#body{
+    border: 1px solid black;
+    width: 700px;
+    height: 700px;
+    border-radius: 100%;
+    background-color: yellow;
+}
+
+#eye{
+    position: absolute;
+    top: 150px;
+    left: 120px;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    width: 200px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 30px -10px 5px 10px white ;
+}
+#eye1{
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    width: 200px;
+    height: 110px;
+    border-radius: 50%;
+    box-shadow: 30px -10px 5px 10px white ;
+}
+#eye_ball{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    background-color: black;
+    animation-name: eye;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes eye {
+    0%{
+        position: relative;
+        top: 35px;
+        left: 60px;
+        }
+    25%{
+        position: relative;
+        top: 20px;
+        left: 90px;
+
+    }
+    50%{
+        position: relative;
+        top: 5px;
+        left: 30px;
+
+    }
+    100%{
+        position: relative;
+        top: 35px;
+        left: 60px;
+
+    }
+    
+}
+#eye_ball1{
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    background-color: black;
+    animation-name: eye1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes eye1 {
+    0%{
+        position: relative;
+        top: 35px;
+        left: 60px;
+        }
+    25%{
+        position: relative;
+        top: 20px;
+        left: 90px;
+
+    }
+    50%{
+        position: relative;
+        top: 5px;
+        left: 30px;
+
+    }
+    100%{
+        position: relative;
+        top: 35px;
+        left: 60px;
+
+    }
+    
+}
+
+#mouth{
+    border: 1px solid white;
+    width: 300px;
+    height: 120px;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    top: 270px;
+    left: -175px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/03/10/31/lips-310734_1280.png);
+    background-size: cover;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    animation-name: image;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes image {
+    form{
+        transform: scaleY(1);
+    }
+    to{
+        transform: scaleY(1.4);
+    }
+    
+}
+
